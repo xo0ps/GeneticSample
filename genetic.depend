@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1353529014 source:/home/mahdi/workspace/genetic/chromosome.cpp
+	"chromosome.h"
+
+1353529002 /home/mahdi/workspace/genetic/chromosome.h
+	"genome.h"
+	<vector>
+
+1353418893 /home/mahdi/workspace/genetic/genome.h
+
+1353422613 source:/home/mahdi/workspace/genetic/genome.cpp
+	"genome.h"
+
+1353708055 source:/home/mahdi/workspace/genetic/main.cpp
+	<iostream>
+	"genome.h"
+	"chromosome.h"
+	"population.h"
+
+1353519146 /home/mahdi/workspace/genetic/population.h
+	<vector>
+	<fstream>
+	"chromosome.h"
+
+1353708087 source:/home/mahdi/workspace/genetic/population.cpp
+	"population.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cmath>
+	<fstream>
+
